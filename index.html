@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTac</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <div id="container">
+        <div class="screen" id="relogio-screen">
+            <div>
+                <div class="relogio-variavel" id="horas"></div>
+                <p>horas</p> 
+            </div>:
+            <div>
+                <div class="relogio-variavel" id="minutos"></div>
+                <p>minutos</p> 
+            </div>:
+            <div>
+                <div class="relogio-variavel" id="segundos"></div>
+                <p>Segundos</p>
+            </div>
+        </div>
+        <div class="screen" id="alarme-screen"></div>
+        <div class="screen" id="cronômetro"></div>
+        <div class="screen" id="Timer"></div>
+        <div id="menu">
+            <ul>
+                <li onclick="relogio()">
+                    <div class="dentro" id="relogio-menu" >
+                        <img src="https://cdn-icons-png.flaticon.com/512/992/992700.png" alt="" width="50px">
+                        Relógio
+                    </div>
+                </li>
+                <li>
+                    <div class="dentro" >
+                        <img src="https://cdn-icons-png.flaticon.com/512/711/711628.png" width="50px" alt="">
+                        Alarme
+                    </div>
+                </li>
+                <li>
+                    <div class="dentro" >
+                        <img src="https://cdn-icons-png.flaticon.com/512/1584/1584892.png"  width="50px" alt="">
+                        Cronômetro
+                    </div>
+                </li>
+                <li class="select" >
+                    <div class="dentro" >
+                        <img src="https://cdn-icons-png.flaticon.com/512/1735/1735142.png"  width="50px" alt="">
+                        Timer
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="./assets/scripts/relogio.js"></script>
+    <script src="./assets/scripts/script.js"></script>
+</body>
+</html>
