@@ -85,10 +85,6 @@ ul{
 
 .screen{
     height: 80vh;
-
-}
-
-#relogio-screen{
     text-align: center;
     display: grid;
     grid-template: 1fr / 26% 5% 26% 5% 26%;
@@ -96,7 +92,7 @@ ul{
     justify-content: space-evenly;
 }
 
-#relogio-screen p {
+.screen p {
     font-size: 1.5rem;
 }
 
